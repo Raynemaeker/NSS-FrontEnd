@@ -1,0 +1,23 @@
+#content.hello.world
+{
+	section
+	{
+	  h1
+	  {
+	  	font-size: $normal_font_size + 8px;
+	  	color: $telse_red;
+	  }
+
+	  h2
+	  {
+	  font-size: $normal_font_size + 6px;
+	  color: desaturate($telse_red, 50px);
+	  }
+
+	  p
+	  {
+	  font-size: $normal_font_size;
+	  }	
+	  color: $reading_color;
+	}
+}

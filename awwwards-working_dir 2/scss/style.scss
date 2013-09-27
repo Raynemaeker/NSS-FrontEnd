@@ -1,0 +1,21 @@
+@import 'colors';
+@import 'fonts';
+@import '_header.scss';
+@import '_brian.scss';
+
+// Entire Page Style
+html{
+  background-color: #e4e6e5;
+  font-family: $main_font;
+}
+
+#container{
+  width: 960px;
+  margin: auto;
+}
+
+.clear{
+  clear: both;
+}
+// End Entire Page Style
+
